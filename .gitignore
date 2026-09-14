@@ -1,0 +1,7 @@
+/target
+/cpp/foh_dsp/build
+**/*.o
+**/*.a
+.DS_Store
+*.wav
+!testdata/*.wav
