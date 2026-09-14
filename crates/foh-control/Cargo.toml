@@ -1,0 +1,9 @@
+[package]
+name = "foh-control"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "DiGiCo OSC control plane and approved plugin maps"
+
+[dependencies]
+foh-core.workspace = true

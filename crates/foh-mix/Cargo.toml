@@ -1,0 +1,9 @@
+[package]
+name = "foh-mix"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Virtual channel strip, buses, and bounded mix moves"
+
+[dependencies]
+foh-core.workspace = true

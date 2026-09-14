@@ -1,0 +1,11 @@
+[package]
+name = "foh-engine"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "CLI: Listen → Reason → Mix → Verify"
+
+[dependencies]
+foh-core.workspace = true
+foh-mix.workspace = true
+foh-control.workspace = true
