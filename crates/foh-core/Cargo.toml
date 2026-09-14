@@ -4,3 +4,6 @@ version.workspace = true
 edition.workspace = true
 license.workspace = true
 description = "Listen / analyze / reason / verify for the AI FOH engine"
+
+[dev-dependencies]
+foh-mix = { path = "../foh-mix" }

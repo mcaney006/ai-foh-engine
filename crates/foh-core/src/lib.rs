@@ -10,6 +10,7 @@ pub mod bands;
 pub mod chanmap;
 pub mod corr;
 pub mod diagnose;
+pub mod fixtures;
 pub mod metrics;
 pub mod propose;
 pub mod session;
