@@ -12,6 +12,8 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
       - name: test
         run: cargo test --workspace
+      - name: demo
+        run: cargo run -p foh-engine -- --map maps/demo.map
 
   cpp:
     runs-on: ubuntu-latest

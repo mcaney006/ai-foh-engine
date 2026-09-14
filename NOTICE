@@ -1,0 +1,9 @@
+AI FOH Engine
+Copyright 2026 AI FOH Engine contributors
+
+Licensed under MIT OR Apache-2.0.
+
+DiGiCo, Waves, SuperRack, SoundGrid, Fourier, and transform.engine are
+trademarks of their respective owners. OSC path strings in this tree come
+from the community Bitfocus Companion module `companion-module-digico-osc`
+and from public console iPad documentation. They are not a DiGiCo SDK.

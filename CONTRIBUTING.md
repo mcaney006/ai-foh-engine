@@ -13,3 +13,6 @@ Rules for a mix-move change:
 5. If it would fire on a desk, it needs a verify reject path.
 
 Do not encode OSC addresses that are not in `docs/CONTROL.md`.
+
+`make ci` is the bar. If the problem mix stops Accepting, the change is
+wrong until a test says otherwise.

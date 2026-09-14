@@ -45,3 +45,15 @@ host and an allowlist that has been run through a rehearsal.
 Radix-2 iterative, N = 4096, hop 1024, Hann. Magnitudes are `norm / N`.
 The 1 kHz tone test in `crates/foh-core/tests/fft_tone.rs` is the check
 that the bit-reversal and twiddles are not decorative.
+
+## Standing-peak detector
+
+Midband only (200 Hz–8 kHz). Score is `bin_magnitude * prominence_dB`.
+A 70 Hz kick fundamental is peaky because its neighbors are empty; that
+is not feedback. `crates/foh-core/tests/verify_gate.rs` locks that.
+
+## Offline vs wire
+
+EQ and dynamics run on the strip so verify can hear them. The public
+DiGiCo OSC set in this repo does not include channel EQ, so those moves
+never become packets. That is intentional. See `docs/CONTROL.md`.

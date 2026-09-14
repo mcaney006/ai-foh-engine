@@ -1,4 +1,5 @@
-# name  desk_input  role
+# name desk_input role
+# desk channels are 1-based DiGiCo input numbers
 kick 1 kick
 bass 2 bass
 vox 12 vocal
